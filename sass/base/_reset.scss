@@ -1,0 +1,75 @@
+:root {
+  --section-bg-color: #e5e5e5;
+  --accent-color: #2196f3;
+  --first-contrast-text-color: rgba(255, 255, 255, 1);
+  --second-contact-text-color: rgba(255, 255, 255, 0.6);
+  --text-color: #757575;
+  --primary-bg: #ffffff;
+  --dark-bg-color: rgba(47, 48, 58, 1);
+  --title-text-color: #212121;
+  --second-vector-color: rgba(255, 255, 255, 1);
+  --main-vector-color: rgba(175, 177, 184, 1);
+  --second-vector-color: rgba(255, 255, 255, 1);
+  --timing-function: (0.4, 0, 0.2, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+*/
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.input,
+button,
+textarea {
+  outline: none;
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}

@@ -1,0 +1,44 @@
+/*
+.work-title,
+.team-title,
+.client-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}*/
+
+.work {
+  padding-top: 0;
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+
+    @include font(700, 14px, 1.14, 0.03em);
+
+    text-transform: uppercase;
+
+    color: $first-contrast-text-color;
+    background-color: rgba(47, 48, 58, 0.8);
+
+    /*padding-top: 27px;
+    padding-bottom: 27px;*/
+  }
+}
