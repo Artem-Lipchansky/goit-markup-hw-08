@@ -1,5 +1,30 @@
-@import './base/base';
-@import './utils/utils';
+@import "./base/common";
+@import "./base/normalise";
+@import "./base/reset";
 
-@import './components/components';
-@import './layout/layout';
+
+
+
+
+@import "./components/buttons";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/socials";
+@import "./components/title";
+
+
+
+@import "./layout/clients";
+@import "./layout/features";
+@import "./layout/footer";
+@import "./layout/gallery";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/team";
+@import "./layout/work";
+
+@import "./utils/hidden";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./utils/variables";
+
